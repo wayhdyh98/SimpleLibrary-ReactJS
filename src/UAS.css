@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.row.nav {
+  padding: 20px 35px;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+h1.title,
+h4.title {
+  text-align: center;
+  letter-spacing: 5px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #313131;
+}
+
+h4.title {
+  padding-top: 0px;
+  font-size: 15px;
+}
+
+h4.title.label {
+  font-size: 8px;
+  margin-bottom: 3px;
+  color: #9b9b9b;
+}
+
+h2.subtitle,
+h3.subtitle {
+  font-family: "Raleway", sans-serif;
+  color: #9b9b9b;
+  font-size: 18px;
+}
+
+h2.subtitle {
+  text-align: center;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+  font-weight: 300;
+}
+
+h3.subcontent {
+  margin: 18px 8px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: #697fff;
+}
+
+h3.subtitle {
+  letter-spacing: 2px;
+  margin: 20px 0px;
+  font-weight: 500;
+}
+
+.no-pad {
+  padding: 0px !important;
+}
+
+.my-img {
+  position: relative;
+  width: 100%;
+  height: 370px;
+  background-image: url("/me.png");
+  background-position: 0px 30px;
+  background-size: 550px;
+  background-repeat: no-repeat;
+  padding: 10px 30px;
+  border-right: 4px solid #4f60c2;
+}
+
+.col-right {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card.box-subtitle .card-body {
+  padding: 5px;
+}
+
+.body-content {
+  background-color: #4f60c2;
+  padding: 20px 0px;
+}
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button.focus:active,
+button:active:focus,
+button:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+.button,
+.button-del,
+.button-up,
+.button-sav,
+.button-can,
+.button-bok,
+.button-rea {
+  width: 100px;
+  padding: 5px 5px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #5f6aec;
+  border: none;
+  box-shadow: 0 4px #363c82;
+}
+
+.button:active {
+  box-shadow: 0 1px #363c82;
+  transform: translateY(3px);
+}
+
+.button-del,
+.button-up {
+  width: 50px;
+  background-color: #ec2c2c;
+  box-shadow: 0 4px #ac1f1f;
+}
+
+.button-del:active {
+  box-shadow: 0 1px #ac1f1f;
+  transform: translateY(3px);
+}
+
+.button-up,
+.button-sav {
+  background-color: #ecd62c;
+  box-shadow: 0 4px #aaac1f;
+}
+
+.button-up:active,
+.button-sav:active {
+  box-shadow: 0 1px #aaac1f;
+  transform: translateY(3px);
+}
+
+.button-can {
+  background-color: #363636;
+  box-shadow: 0 4px #1e1e1e;
+}
+
+.button-can:active {
+  box-shadow: 0 1px #1e1e1e;
+  transform: translateY(3px);
+}
+
+.button-bok,
+.button-rea {
+  width: 40px;
+  padding: 3px 0px;
+  background-color: #57dc2b;
+  box-shadow: 0 4px #45af22;
+}
+
+.button-bok:active {
+  box-shadow: 0 1px #45af22;
+  transform: translateY(3px);
+}
+
+.button-rea {
+  background-color: #2bd9dc;
+  box-shadow: 0 4px #1f9ea0;
+}
+
+.button-rea:active {
+  box-shadow: 0 1px #1f9ea0;
+  transform: translateY(3px);
+}
+
+.button-up:disabled,
+.button-del:disabled,
+.button-rea:disabled,
+.button-rea[disabled] {
+  background-color: #797979;
+  box-shadow: 0 4px #393939;
+}
+
+.button-up:active:disabled,
+.button-del:active:disabled,
+.button-rea:active:disabled,
+.button-rea:active[disabled] {
+  box-shadow: 0 4px #393939;
+  transform: translateY(0px);
+}
+
+.item {
+  border: 1px solid #bbbbbb;
+  padding: 10px;
+}
+
+.modal-dialog {
+  max-width: none !important;
+  width: 950px !important;
+  margin: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
